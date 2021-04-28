@@ -15,7 +15,7 @@ const Layout = ({ location, title, children }) => {
   } else {
     header = (
       <Link className="header-link-home" to="/">
-        {title}
+        {title} and more changes
       </Link>
     )
   }
